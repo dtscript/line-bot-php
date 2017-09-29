@@ -16,6 +16,12 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
+			
+			if($text == "EMS123456")
+			{
+				$text = "สินค้าของท่านได้ถึง กทม วันที่ 29/9/2560 กรุณาติดต่อ Call Center 02-002154";
+			}
+			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
