@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			
-			if($text == "EMS")
+			if($text == "EMS123456")
 			{
 				$messages = [
 					'type' => 'text',
