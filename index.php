@@ -17,12 +17,12 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			
-			$text = "สินค้าของท่านได้ถึง กทม วันที่ 29/9/2560 กรุณาติดต่อ Call Center 02-002154" . $text . "||";
+			//$text = "สินค้าของท่านได้ถึง กทม วันที่ 29/9/2560 กรุณาติดต่อ Call Center 02-002154" . $text . "||";
 			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => $text
+				'text' =>  "สินค้าของท่านได้ถึง กทม วันที่ 29/9/2560 กรุณาติดต่อ Call Center 02-002154" . $text . "||"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
